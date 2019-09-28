@@ -8,7 +8,7 @@ const NoMatch = () => (
   <div className="no-match">
     <header className="no-match__header">
       <Link to="/" className="receive-link">
-        <img src={logo} alt="Karbon14 Logo" />
+        <img src={logo} alt="Bramble Logo" />
       </Link>
 
       <h1>

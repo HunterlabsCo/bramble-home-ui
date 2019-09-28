@@ -8,7 +8,7 @@ const APP_DIR = path.resolve(__dirname, 'src')
 
 // Html Auto generator
 const HtmlPlugin = new HtmlWebpackPlugin({
-  title: 'Karbon14 | Decentralizing the Proof of Life in the Blockchain',
+  title: 'Bramble | Token ecosystem for Reward based system',
   template: require('html-webpack-template'),
   appMountId: 'app',
   favicon: 'src/favicon.ico',
@@ -29,7 +29,7 @@ const HtmlPlugin = new HtmlWebpackPlugin({
     },
     {
       property: 'og:description',
-      content: 'Decentralizing the Proof of Life in the Blockchain'
+      content: 'Token ecosystem for reward based systems'
     },
     {
       property: 'canonical',
@@ -41,7 +41,7 @@ const HtmlPlugin = new HtmlWebpackPlugin({
     },
     {
       property: 'og:title',
-      content: 'Karbon14'
+      content: 'Bramble'
     },
     {
       property: 'og:type',
@@ -53,7 +53,7 @@ const HtmlPlugin = new HtmlWebpackPlugin({
     },
     {
       property: 'og:site_name',
-      content: 'Karbon14'
+      content: 'Bramble'
     },
     {
       name: 'google-site-verification',
