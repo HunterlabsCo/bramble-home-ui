@@ -1,4 +1,4 @@
-# Karbon14 Home UI
+# Bramble Home UI
 [![Travis badge](https://travis-ci.org/karbon14/crowdsale-home-ui.svg?branch=master)](https://travis-ci.org/karbon14/crowdsale-home-ui)
 
 This landing exposes the following contents:
