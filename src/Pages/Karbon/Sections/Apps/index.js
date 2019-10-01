@@ -21,9 +21,6 @@ const Apps = ({ getTranslation }) => (
           <ul>
             <li>{getTranslation('apps.info1')}</li>
             <li>{getTranslation('apps.info2')}</li>
-            <li>{getTranslation('apps.info3')}</li>
-            <li>{getTranslation('apps.info4')}</li>
-            <li>{getTranslation('apps.info5')}</li>
           </ul>
         </div>
       </div>

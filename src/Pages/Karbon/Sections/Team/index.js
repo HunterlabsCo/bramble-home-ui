@@ -3,9 +3,8 @@ import PropTypes from 'prop-types'
 import { Title } from '../../../../Components/Title'
 import { Profile } from './Profile'
 import style from './style.scss'
-import NatanaelIMG from './Assets/natanael-img.jpeg'
-import WalterIMG from './Assets/walter-img.jpeg'
-import JoseIMG from './Assets/jose-img.jpeg'
+import NiteshIMG from './Assets/nizam.jpeg'
+import RahulIMG from './Assets/khusro.jpg'
 import './Assets/pattern-team.png'
 
 const Team = ({ getTranslation }) => (
@@ -20,35 +19,25 @@ const Team = ({ getTranslation }) => (
 
       <div className="members">
         <Profile
-          photo={NatanaelIMG}
+          photo={RahulIMG}
           name="Rahul"
           surname="Soshte"
-          twitter="https://twitter.com/zalazarnatanael"
-          linkedin="https://www.linkedin.com/in/zalazarnatanael"
-          github="https://github.com/zalazarnatanael"
+          twitter="https://hunterlabs.tk"
+          linkedin="https://www.linkedin.com/in/rahul-s-138133ba/"
+          github="https://github.com/rahul-soshte"
           charge="CO-FOUNDER"
           tech="Senior Full-stack"
         />
 
         <Profile
-          photo={WalterIMG}
+          photo={NiteshIMG}
           name="Nitesh"
           surname="Mishra"
           twitter="https://twitter.com/wzalazar_"
-          linkedin="https://www.linkedin.com/in/wzalazar"
+          linkedin="https://www.linkedin.com/in/nitesh-mishra-27778318b/"
           github="https://github.com/wzalazar"
           charge="CO-FOUNDER"
           tech="Blockchain Evangelist"
-        />
-
-        <Profile
-          photo={JoseIMG}
-          name="José Luis"
-          surname="Casella"
-          linkedin="https://www.linkedin.com/in/jose-luis-casella-b48b0a108/"
-          github="https://github.com/jl-casella"
-          charge="CO-FOUNDER"
-          tech="Senior Full-stack"
         />
       </div>
     </div>
