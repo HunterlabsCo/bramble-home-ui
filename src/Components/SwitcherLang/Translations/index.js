@@ -1,6 +1,6 @@
 import EN from './EN'
-import ES from './ES'
+// import ES from './ES'
 
-const Langs = [EN, ES]
+const Langs = [EN]
 
 export { Langs }

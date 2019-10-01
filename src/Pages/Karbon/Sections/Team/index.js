@@ -21,8 +21,8 @@ const Team = ({ getTranslation }) => (
       <div className="members">
         <Profile
           photo={NatanaelIMG}
-          name="Natanael"
-          surname="Zalazar"
+          name="Rahul"
+          surname="Soshte"
           twitter="https://twitter.com/zalazarnatanael"
           linkedin="https://www.linkedin.com/in/zalazarnatanael"
           github="https://github.com/zalazarnatanael"
@@ -32,8 +32,8 @@ const Team = ({ getTranslation }) => (
 
         <Profile
           photo={WalterIMG}
-          name="Walter"
-          surname="Zalazar"
+          name="Nitesh"
+          surname="Mishra"
           twitter="https://twitter.com/wzalazar_"
           linkedin="https://www.linkedin.com/in/wzalazar"
           github="https://github.com/wzalazar"

@@ -106,7 +106,7 @@ const Header = ({ sections = [], selectedLanguage, getTranslation }) => (
 
                           <div className={isMobile ? 'hide' : ''}>
                             <GithubCorner
-                              href="https://github.com/karbon14"
+                              href="https://github.com/HunterlabsCo"
                               target="_blank"
                               rel="noopener noreferrer"
                             />
