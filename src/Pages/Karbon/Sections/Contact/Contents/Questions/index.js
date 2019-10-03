@@ -10,12 +10,12 @@ const Questions = ({ getTranslation }) => (
       <ul>
         <li>
           <em className="fa fa-envelope" />
-          <span>team@karbon14.org</span>
+          <span>hunterlabsc@gmail.com</span>
         </li>
 
         <li>
           <a
-            href="https://t.me/joinchat/HCMsRlJYuvSVUir-j6A30Q"
+            href="https://t.me/joinchat/AAAAAEU2DCjQ0vW4_GTWxg"
             target="_blank"
             rel="noopener noreferrer"
           >

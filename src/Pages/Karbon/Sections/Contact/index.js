@@ -31,28 +31,18 @@ const Contact = ({ getTranslation }) => (
               <Media
                 links={[
                   {
-                    name: 'Facebook',
-                    url: 'https://www.facebook.com/k14project',
-                    icon: 'fa-facebook'
-                  },
-                  {
                     name: 'Twitter',
-                    url: 'https://twitter.com/k14project',
+                    url: 'https://twitter.com/Hunterlabs1',
                     icon: 'fa-twitter'
                   },
                   {
-                    name: 'G+',
-                    url: 'https://plus.google.com/+k14project',
-                    icon: 'fa-google-plus'
-                  },
-                  {
                     name: 'GitHub',
-                    url: 'https://github.com/karbon14',
+                    url: 'https://github.com/HunterlabsCo',
                     icon: 'fa-github'
                   },
                   {
                     name: 'Medium',
-                    url: 'https://medium.com/@karbon14',
+                    url: 'https://medium.com/@hunterlabsc',
                     icon: 'fa-medium'
                   }
                 ]}
