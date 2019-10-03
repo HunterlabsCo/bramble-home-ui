@@ -2,14 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import style from './style.scss'
 import { Title } from '../../../../Components/Title'
-import {
-  Media,
-  Sections,
-  Disclaimer,
-  Form,
-  Questions,
-  Suscribe
-} from './Contents'
+import { Media, Sections, Disclaimer, Form, Questions } from './Contents'
 import './Assets/footer.png'
 
 const Contact = ({ getTranslation }) => (
@@ -64,10 +57,6 @@ const Contact = ({ getTranslation }) => (
                   }
                 ]}
               />
-            </div>
-
-            <div className="section">
-              <Suscribe getTranslation={getTranslation} />
             </div>
           </div>
 
