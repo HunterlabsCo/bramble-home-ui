@@ -6,8 +6,15 @@ const DownloadWhitepaper = async (lang = 'en') => {
       method: 'GET',
       headers: { 'Content-Type': 'application/pdf' }
     })
-
+    // console.log(withepaper)
     const withepaperBlob = await withepaper.blob()
+    // withepaperBlob.lastModifiedDate = new Date();
+    // withepaperBlob.name = 'whitepaper_Bramble.pdf';
+    // var file = new Blob([await withepaper.blob()], {
+    // type: 'application/pdf'
+    // });
+
+    // saveAs(withepaperBlob, 'whitepaper_Bramble.pdf')
     saveAs(withepaperBlob, `whitepaper_Bramble_${lang.toUpperCase()}.pdf`)
   } catch (e) {
     //
