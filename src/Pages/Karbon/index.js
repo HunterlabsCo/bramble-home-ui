@@ -2,16 +2,7 @@ import React from 'react'
 import style from './style.scss'
 import Header from '../../Components/Header'
 import { LanguageContext } from '../../Components/SwitcherLang/'
-import {
-  Intro,
-  Description,
-  Tokens,
-  Roadmap,
-  Apps,
-  Team,
-  Faq,
-  Contact
-} from './Sections'
+import { Intro, Description, Roadmap, Team, Faq, Contact } from './Sections'
 
 import { EthereumProvider } from './Utils/EthereumProvider'
 import {
@@ -49,17 +40,10 @@ const Karbon = () => (
               selectedLanguage={selectedLanguage}
               sections={[
                 { name: 'description' },
-                { name: 'tokens' },
                 { name: 'roadmap' },
-                { name: 'apps' },
                 { name: 'team' },
                 { name: 'faq' },
-                { name: 'contact' },
-                {
-                  name: 'airdrop',
-                  href: process.env.AIRDROP_URL,
-                  target: '_blank'
-                }
+                { name: 'contact' }
               ]}
             />
             <Intro
@@ -72,9 +56,9 @@ const Karbon = () => (
               selectedLanguage={selectedLanguage}
               getTranslation={getTranslation}
             />
-            <Tokens getTranslation={getTranslation} />
+            {/*<Tokens getTranslation={getTranslation} />*/}
             <Roadmap getTranslation={getTranslation} />
-            <Apps getTranslation={getTranslation} />
+            {/*<Apps getTranslation={getTranslation} />*/}
             <Team getTranslation={getTranslation} />
             <Faq getTranslation={getTranslation} />
             <Contact getTranslation={getTranslation} />

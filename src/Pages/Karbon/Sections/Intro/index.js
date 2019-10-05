@@ -5,7 +5,7 @@ import 'particles.js/particles'
 import style from './style.scss'
 import Component from '@reactions/component'
 import { Particles } from './Helpers'
-import { Counter } from './Counter'
+// import { Counter } from './Counter'
 import './Assets/overlay.png'
 import './Assets/azure.png'
 
@@ -40,7 +40,7 @@ const Intro = ({ getTranslation, deployedContracts = {}, web3 }) => (
           if (!isEqual(props.deployedContracts, prevProps.deployedContracts))
             updateUI({ deployedContracts, setState, web3 })
         }}
-        render={({ state }) => (
+        render={() => (
           <div className="intro">
             <div id="particles-js" className="particles-container" />
             <div className="container">
@@ -52,7 +52,7 @@ const Intro = ({ getTranslation, deployedContracts = {}, web3 }) => (
                   </div>
                 </div>
 
-                <div className="content-right">
+                {/*<div className="content-right">
                   <Counter
                     from={state.openingTime}
                     to={state.closingTime}
@@ -66,7 +66,7 @@ const Intro = ({ getTranslation, deployedContracts = {}, web3 }) => (
                       state.cap && state.goal && state.totalSupply && state.rate
                     }
                   />
-                </div>
+                </div>*/}
               </div>
             </div>
             <style jsx>{style}</style>

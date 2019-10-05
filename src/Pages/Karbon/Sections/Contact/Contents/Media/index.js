@@ -13,7 +13,7 @@ const Media = ({ links }) => (
           <a>
             <img
               src={logo}
-              alt="Karbon14 Logo"
+              alt="Bramble Logo"
               onClick={() => onGoToSection('intro')}
             />
           </a>

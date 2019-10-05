@@ -25,7 +25,7 @@ const HtmlPlugin = new HtmlWebpackPlugin({
     {
       name: 'keywords',
       content:
-        'Karbon14, ICO, Crowdsale, Blockchain, Smart Contracts, Proof of Life, Ethereum, ERC20, ERC-20'
+        'Bramble, ICO, Crowdsale, Blockchain, Smart Contracts, Ethereum, ERC20, ERC-20'
     },
     {
       property: 'og:description',
@@ -85,7 +85,7 @@ const getPlugins = argv => {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(argv.mode),
       'process.env.API_URL': JSON.stringify(
-        process.env.API_URL || 'http://localhost:80/v1'
+        process.env.API_URL || 'https://brambleapi.herokuapp.com/api/'
       ),
       'process.env.CROWDSALE_URL': JSON.stringify(
         process.env.CROWDSALE_URL || 'https://crowdsale.karbon14.org'

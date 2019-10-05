@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './style.scss'
 import PropTypes from 'prop-types'
-import graph from './Assets/graph.png'
+// import graph from './Assets/graph.png'
 import { Advantages } from './Advantages'
 
 const Description = ({ selectedLanguage, getTranslation }) => (
@@ -23,9 +23,9 @@ const Description = ({ selectedLanguage, getTranslation }) => (
         </div>
 
         <div className="content-right">
-          <div>
+          {/*<div>
             <img src={graph} />
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>

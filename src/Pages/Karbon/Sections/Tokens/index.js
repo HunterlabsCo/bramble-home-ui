@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import style from './style.scss'
-import { Chart } from './Chart'
+// import { Chart } from './Chart'
 import { theme } from '@react-core/theme-karbon'
 import { Button } from '@react-core/button'
 import { Title } from '../../../../Components/Title'
@@ -54,7 +54,7 @@ const Tokens = ({ getTranslation }) => (
         </div>
       </div>
 
-      <div className="distribution">
+      {/*<div className="distribution">
         <Chart
           description={getTranslation('tokens.distribution')}
           data={[
@@ -66,7 +66,7 @@ const Tokens = ({ getTranslation }) => (
           ]}
           colors={['#e55457', '#855af4', '#16a4fd', '#e5c154', '#00f9a5']}
         />
-      </div>
+      </div>*/}
 
       <div className="buyMobile">
         <a rel="noopener noreferrer" href={process.env.CROWDSALE_URL}>

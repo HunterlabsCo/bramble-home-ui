@@ -1,15 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Button } from '@react-core/button'
-import { Feature } from './Feature'
+// import { Feature } from './Feature'
 import style from './style.scss'
 import { theme } from '@react-core/theme-karbon'
 import { Title } from '../../../../../Components/Title'
 import { Scroll } from '../../../../../Components/Header/Helpers'
 import { DownloadWhitepaper } from '../../../../../Components/Utils'
-import blockchain from './Assets/features-blockchain.png'
-import token from './Assets/features-token.png'
-import integration from './Assets/features-integration.png'
+// import blockchain from './Assets/features-blockchain.png'
+// import token from './Assets/features-token.png'
+// import integration from './Assets/features-integration.png'
 
 const Advantages = ({ selectedLanguage, getTranslation }) => (
   <div className="advantages">
@@ -19,7 +19,7 @@ const Advantages = ({ selectedLanguage, getTranslation }) => (
       description={getTranslation('description.whySubtitle')}
     />
 
-    <div className="features">
+    {/*<div className="features">
       <Feature
         img={blockchain}
         title={getTranslation('description.advantage1Title')}
@@ -35,7 +35,7 @@ const Advantages = ({ selectedLanguage, getTranslation }) => (
         title={getTranslation('description.advantage3Title')}
         description={getTranslation('description.advantage3Description')}
       />
-    </div>
+    </div>*/}
 
     <div className="links">
       <Button

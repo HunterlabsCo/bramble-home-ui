@@ -5,7 +5,7 @@ import { Button } from '@react-core/button'
 import { DownloadWhitepaper } from '../Utils'
 import style from './style.scss'
 import logo from './Assets/Logo.svg'
-import airdrop from './Assets/airdrop.svg'
+// import airdrop from './Assets/airdrop.svg'
 import { SwitcherLang } from '../SwitcherLang'
 import { Sticky, Scroll, Resize, MobileMenu } from './Helpers'
 import GithubCorner from 'react-github-corner'
@@ -79,13 +79,13 @@ const Header = ({ sections = [], selectedLanguage, getTranslation }) => (
                           </div>
 
                           <div className="menu__area">
-                            <a
+                            {/*<a
                               target="_blank"
                               href={process.env.AIRDROP_URL}
                               rel="noopener noreferrer"
                             >
                               <img src={airdrop} alt="Airdrop" />
-                            </a>
+                            </a>*/}
 
                             <Button
                               theme={theme}
