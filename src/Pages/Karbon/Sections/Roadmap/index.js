@@ -29,8 +29,7 @@ const Roadmap = ({ getTranslation }) => (
         },
         {
           start: getTranslation('roadmap.option3Title'),
-          description: getTranslation('roadmap.option3Description'),
-          done: true
+          description: getTranslation('roadmap.option3Description')
         },
         {
           start: getTranslation('roadmap.option4Title'),
