@@ -22,7 +22,6 @@ const Team = ({ getTranslation }) => (
           photo={RahulIMG}
           name="Rahul"
           surname="Soshte"
-          twitter="https://hunterlabs.tk"
           linkedin="https://www.linkedin.com/in/rahul-s-138133ba/"
           github="https://github.com/rahul-soshte"
           charge="CO-FOUNDER"
@@ -33,9 +32,7 @@ const Team = ({ getTranslation }) => (
           photo={NiteshIMG}
           name="Nitesh"
           surname="Mishra"
-          twitter="https://twitter.com/wzalazar_"
           linkedin="https://www.linkedin.com/in/nitesh-mishra-27778318b/"
-          github="https://github.com/wzalazar"
           charge="CO-FOUNDER"
           tech="Blockchain Evangelist"
         />

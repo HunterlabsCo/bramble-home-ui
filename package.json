@@ -9,13 +9,13 @@
     "start": "serve -s dist",
     "start:dev": "NETWORK=5777 webpack-dev-server --mode development",
     "start:ropsten": "NETWORK=3 webpack-dev-server --mode development",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --config webpack.config.prod.js --progress --colors",
     "build:prod": "webpack --mode production --config webpack.config.prod.js --progress --colors",
     "precommit": "lint-staged",
     "lint": "eslint -f table src",
     "lint:fix": "eslint --fix -f table src",
     "heroku-postbuild": "npm run build:prod",
-    "serve": "serve -s dist"
+    "serve": "serve -s public"
   },
   "proxy": {
     "/proxy": {
