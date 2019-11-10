@@ -1,5 +1,6 @@
 # Distributable files
 dist
+public
 
 # Apple files
 .DS_Store
