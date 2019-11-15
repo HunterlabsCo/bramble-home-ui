@@ -3,7 +3,7 @@ const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const BUILD_DIR = path.resolve(__dirname, 'dist')
+const BUILD_DIR = path.resolve(__dirname, 'public')
 const APP_DIR = path.resolve(__dirname, 'src')
 
 // Html Auto generator
@@ -20,7 +20,7 @@ const HtmlPlugin = new HtmlWebpackPlugin({
     { charset: 'utf-8' },
     {
       name: 'description',
-      content: 'Decentralizing the Proof of Life in the Blockchain'
+      content: 'Token ecosystem for reward based systems'
     },
     {
       name: 'keywords',
@@ -33,11 +33,11 @@ const HtmlPlugin = new HtmlWebpackPlugin({
     },
     {
       property: 'canonical',
-      content: 'https://karbon14.org/'
+      content: 'https://bramble.tk/'
     },
     {
       property: 'og:image',
-      content: 'https://karbon14.org/preview.jpg'
+      content: 'https://bramble.tk/preview.png'
     },
     {
       property: 'og:title',
@@ -49,7 +49,7 @@ const HtmlPlugin = new HtmlWebpackPlugin({
     },
     {
       property: 'og:url',
-      content: 'https://karbon14.org/'
+      content: 'https://bramble.tk/'
     },
     {
       property: 'og:site_name',
