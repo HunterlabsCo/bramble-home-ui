@@ -32,7 +32,7 @@ You have to install:
 You need to clone the repository
 
 ```js
-git clone git@github.com:karbon14/home-ui.git
+"git clone https://github.com/HunterlabsCo/bramble-home-ui.git"
 ```
 
 **Second step**

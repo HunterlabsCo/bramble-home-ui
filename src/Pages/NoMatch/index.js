@@ -1,8 +1,8 @@
 import React from 'react'
 import style from './style.scss'
-import logo from './Assets/logo.svg'
+import logo from './Assets/logo1.svg'
 import { Link } from 'react-router-dom'
-import './Assets/background.svg'
+// import './Assets/Bramble404.svg'
 
 const NoMatch = () => (
   <div className="no-match">
