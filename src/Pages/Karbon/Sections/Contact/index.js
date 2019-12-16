@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import style from './style.scss'
 import { Title } from '../../../../Components/Title'
-import { Media, Sections, Disclaimer, Questions } from './Contents'
+import { Media, Sections, Disclaimer, Questions, Form } from './Contents'
 import './Assets/footer.png'
 
 const Contact = ({ getTranslation }) => (
@@ -16,11 +16,11 @@ const Contact = ({ getTranslation }) => (
       <div className="left">
         <Questions getTranslation={getTranslation} />
       </div>
-      {/*
-      <div className="right">
-        <Form getTranslation={getTranslation} />
-      </div>
-      */}
+      {
+        <div className="right">
+          <Form getTranslation={getTranslation} />
+        </div>
+      }
     </div>
 
     <div className="footer">
