@@ -16,11 +16,10 @@ const Contact = ({ getTranslation }) => (
       <div className="left">
         <Questions getTranslation={getTranslation} />
       </div>
-      {
-        <div className="right">
-          <Form getTranslation={getTranslation} />
-        </div>
-      }
+
+      <div className="right">
+        <Form getTranslation={getTranslation} />
+      </div>
     </div>
 
     <div className="footer">
@@ -40,11 +39,6 @@ const Contact = ({ getTranslation }) => (
                     name: 'GitHub',
                     url: 'https://github.com/HunterlabsCo',
                     icon: 'fa-github'
-                  },
-                  {
-                    name: 'Medium',
-                    url: 'https://medium.com/@hunterlabsc',
-                    icon: 'fa-medium'
                   }
                 ]}
               />
@@ -54,14 +48,7 @@ const Contact = ({ getTranslation }) => (
           <div className="right">
             <Sections
               getTranslation={getTranslation}
-              sections={[
-                'description',
-                'tokens',
-                'apps',
-                'team',
-                'faq',
-                'contact'
-              ]}
+              sections={['description', 'contact']}
             />
           </div>
         </div>

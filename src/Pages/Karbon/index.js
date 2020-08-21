@@ -2,8 +2,8 @@ import React from 'react'
 import style from './style.scss'
 import Header from '../../Components/Header'
 import { LanguageContext } from '../../Components/SwitcherLang/'
-import { Intro, Description, Roadmap, Team, Faq, Contact } from './Sections'
-
+// import { Intro, Description, Roadmap, Team, Faq, Contact } from './Sections'
+import { Intro, Description, Contact } from './Sections'
 import { EthereumProvider } from './Utils/EthereumProvider'
 import {
   abi as CrowdsaleABI,
@@ -38,13 +38,7 @@ const Karbon = () => (
             <Header
               getTranslation={getTranslation}
               selectedLanguage={selectedLanguage}
-              sections={[
-                { name: 'description' },
-                { name: 'roadmap' },
-                { name: 'team' },
-                { name: 'faq' },
-                { name: 'contact' }
-              ]}
+              sections={[{ name: 'description' }, { name: 'contact' }]}
             />
             <Intro
               getTranslation={getTranslation}
@@ -57,10 +51,10 @@ const Karbon = () => (
               getTranslation={getTranslation}
             />
             {/*<Tokens getTranslation={getTranslation} />*/}
-            <Roadmap getTranslation={getTranslation} />
+            {/*<Roadmap getTranslation={getTranslation} />*/}
             {/*<Apps getTranslation={getTranslation} />*/}
-            <Team getTranslation={getTranslation} />
-            <Faq getTranslation={getTranslation} />
+            {/*<Team getTranslation={getTranslation} />*/}
+            {/*<Faq getTranslation={getTranslation} />*/}
             <Contact getTranslation={getTranslation} />
             <style jsx>{style}</style>
           </div>

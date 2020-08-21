@@ -3,6 +3,7 @@ import style from './style.scss'
 import PropTypes from 'prop-types'
 // import graph from './Assets/graph.png'
 import { Advantages } from './Advantages'
+import { Title } from '../../../../Components/Title'
 
 const Description = ({ selectedLanguage, getTranslation }) => (
   <div className="description">
@@ -13,9 +14,9 @@ const Description = ({ selectedLanguage, getTranslation }) => (
             <h2>{getTranslation('description.karbon')}</h2>
             <h1>{getTranslation('description.title', true)}</h1>
 
-            <p className="lead">
-              {getTranslation('description.subtitle', true)}
-            </p>
+            {/*<p className="lead">
+                          {getTranslation('description.subtitle', true)}
+                        </p>*/}
 
             <p>{getTranslation('description.paragraph1')}</p>
             <p>{getTranslation('description.paragraph2')}</p>
@@ -26,6 +27,11 @@ const Description = ({ selectedLanguage, getTranslation }) => (
           {/*<div>
             <img src={graph} />
           </div>*/}
+          <Title
+            section={getTranslation('description.whyKarbon')}
+            title={getTranslation('description.whyTitle')}
+            description={getTranslation('description.whySubtitle')}
+          />
         </div>
       </div>
     </div>

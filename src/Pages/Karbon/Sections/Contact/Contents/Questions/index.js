@@ -15,11 +15,11 @@ const Questions = ({ getTranslation }) => (
 
         <li>
           <a
-            href="https://t.me/joinchat/AAAAAEU2DCjQ0vW4_GTWxg"
+            href="https://discord.gg/UKBGhrX"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <em className="fa fa-paper-plane" />
+            <em className="fa fa-gamepad" />
             <span>{getTranslation('contact.joinUs')}</span>
           </a>
         </li>

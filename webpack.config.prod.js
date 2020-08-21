@@ -85,7 +85,7 @@ const getPlugins = argv => {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(argv.mode),
       'process.env.API_URL': JSON.stringify(
-        process.env.API_URL || 'https://brambleapi.herokuapp.com/api'
+        process.env.API_URL || 'http://localhost:8080'
       ),
       'process.env.CROWDSALE_URL': JSON.stringify(
         process.env.CROWDSALE_URL || 'https://crowdsale.karbon14.org'

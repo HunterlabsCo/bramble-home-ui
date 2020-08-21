@@ -12,7 +12,7 @@ import GithubCorner from 'react-github-corner'
 
 const Header = ({ sections = [], selectedLanguage, getTranslation }) => (
   <MobileMenu
-    render={({ isOpen, onChange, onClose }) => (
+    render={({ isOpen, onClose }) => (
       <div className={isOpen ? 'open' : ''}>
         <Resize
           mobileBreakpoint={990}
@@ -30,7 +30,7 @@ const Header = ({ sections = [], selectedLanguage, getTranslation }) => (
                             <a>
                               <img
                                 src={logo}
-                                alt="Karbon14 Logo"
+                                alt="Bramble Logo"
                                 onClick={() => onGoToSection('intro')}
                               />
                             </a>
@@ -78,31 +78,31 @@ const Header = ({ sections = [], selectedLanguage, getTranslation }) => (
                             </ul>
                           </div>
 
-                          <div className="menu__area">
-                            {/*<a
-                              target="_blank"
-                              href={process.env.AIRDROP_URL}
-                              rel="noopener noreferrer"
-                            >
-                              <img src={airdrop} alt="Airdrop" />
-                            </a>*/}
-
-                            <Button
-                              theme={theme}
-                              label={
-                                isMobile
-                                  ? ''
-                                  : getTranslation('header.whitepaper')
-                              }
-                              type={isMobile ? 'primary menu' : 'secondary'}
-                              icon={isMobile ? 'fa-bars menu' : ''}
-                              onClick={
-                                isMobile
-                                  ? onChange
-                                  : () => DownloadWhitepaper(selectedLanguage)
-                              }
-                            />
-                          </div>
+                          {/*<div className="menu__area">
+                                                      <a
+                                                        target="_blank"
+                                                        href={process.env.AIRDROP_URL}
+                                                        rel="noopener noreferrer"
+                                                      >
+                                                        <img src={airdrop} alt="Airdrop" />
+                                                      </a>
+                          
+                                                      <Button
+                                                        theme={theme}
+                                                        label={
+                                                          isMobile
+                                                            ? ''
+                                                            : getTranslation('header.whitepaper')
+                                                        }
+                                                        type={isMobile ? 'primary menu' : 'secondary'}
+                                                        icon={isMobile ? 'fa-bars menu' : ''}
+                                                        onClick={
+                                                          isMobile
+                                                            ? onChange
+                                                            : () => DownloadWhitepaper(selectedLanguage)
+                                                        }
+                                                      />
+                                                    </div>*/}
 
                           <div className={isMobile ? 'hide' : ''}>
                             <GithubCorner

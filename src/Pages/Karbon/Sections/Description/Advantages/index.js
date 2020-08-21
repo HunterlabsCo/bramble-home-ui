@@ -1,23 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Button } from '@react-core/button'
+// import { Button } from '@react-core/button'
 // import { Feature } from './Feature'
 import style from './style.scss'
-import { theme } from '@react-core/theme-karbon'
-import { Title } from '../../../../../Components/Title'
-import { Scroll } from '../../../../../Components/Header/Helpers'
-import { DownloadWhitepaper } from '../../../../../Components/Utils'
+// import { theme } from '@react-core/theme-karbon'
+// import { Title } from '../../../../../Components/Title'
+// import { Scroll } from '../../../../../Components/Header/Helpers'
+// import { DownloadWhitepaper } from '../../../../../Components/Utils'
 // import blockchain from './Assets/features-blockchain.png'
 // import token from './Assets/features-token.png'
 // import integration from './Assets/features-integration.png'
-
-const Advantages = ({ selectedLanguage, getTranslation }) => (
+// const Advantages = ({selectedLanguage, getTranslation}) => ()
+const Advantages = () => (
   <div className="advantages">
-    <Title
-      section={getTranslation('description.whyKarbon')}
-      title={getTranslation('description.whyTitle')}
-      description={getTranslation('description.whySubtitle')}
-    />
+    {/* <Title
+         section={getTranslation('description.whyKarbon')}
+         title={getTranslation('description.whyTitle')}
+         description={getTranslation('description.whySubtitle')}
+       /> */}
 
     {/*<div className="features">
       <Feature
@@ -37,23 +37,23 @@ const Advantages = ({ selectedLanguage, getTranslation }) => (
       />
     </div>*/}
 
-    <div className="links">
-      <Button
-        theme={theme}
-        label={getTranslation('description.downloadWhitepaper')}
-        onClick={() => DownloadWhitepaper(selectedLanguage)}
-      />
-      <Scroll
-        headerHeight={80}
-        render={({ onGoToSection }) => (
+    {/*<div className="links">
           <Button
             theme={theme}
-            label={getTranslation('description.getWhitelisted')}
-            onClick={() => onGoToSection('contact')}
+            label={getTranslation('description.downloadWhitepaper')}
+            onClick={() => DownloadWhitepaper(selectedLanguage)}
           />
-        )}
-      />
-    </div>
+          <Scroll
+            headerHeight={80}
+            render={({ onGoToSection }) => (
+              <Button
+                theme={theme}
+                label={getTranslation('description.getWhitelisted')}
+                onClick={() => onGoToSection('contact')}
+              />
+            )}
+          />
+        </div>*/}
     <style jsx>{style}</style>
   </div>
 )
